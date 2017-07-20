@@ -1,11 +1,12 @@
+a{
+	text-decoration: none;
+}
+
 body{
 	font-family: Arial, Helvetica, Serif, "Times New Roman";
 	line-height: auto;
 }
 
-header{
-	float: left;
-}
 
 footer{
 	clear:both;
@@ -19,6 +20,12 @@ footer{
 	padding-top: 5px;
 	margin: 5px auto;
 }
+
+header{
+	float: left;
+}
+
+
 
 #about, #contact, #portfolio {
 	float: left;
