@@ -1,16 +1,21 @@
 a{
 	text-decoration: none;
+	color: grey;
+	display: block;
 }
 
 body{
-	font-family: Arial, Helvetica, Serif, "Times New Roman";
+	font-family: Arial, Helvetica, sans-serif, "Times New Roman";
 	line-height: auto;
+	background-image: url("./../images/br_nickel.png");
+	background-color: #ebebeb;
+	margin: 0px auto;
 }
 
 
 footer{
 	clear:both;
-	width: 900px;
+	/*width: 900px*/;
 	text-align: center;
 	height: 80px;
 	line-height: 80px;
@@ -21,17 +26,29 @@ footer{
 	margin: 5px auto;
 }
 
+h1{
+    font-size: 27px;
+    font-weight: bold;
+}
+
+h2{
+	color: #454687;
+}
+
 header{
 	float: left;
+	width: 75%;
 }
 
 
 
 #about, #contact, #portfolio {
-	float: left;
-	background-color: #777;
+	float: right;
+	background-color: none;
 	margin: 0px 10px;
 	height: 20px;
+	width: 75px;
+	align-content: left;
 }
 
 #abtmetxt{
@@ -39,22 +56,11 @@ header{
 	width: 100%;
 }
 
-#abtmetitle {
-	border: solid 1px blue;
-	background-color: aqua;
+.banner{
+	height: 80px;
+	background-color: #ebebeb;
 	width: 100%;
-	text-align: left;
-	vertical-align: 50%;
-}
-
-.banner, .wrapper{
-	width: 900px;
-	margin: 0px auto;
-	border: solid black 1px;
-}
-
-#biobox{
-	margin: 0px 15px 10px 15px;
+	text-indent: 10%;
 }
 
 #connectbanner{
@@ -69,19 +75,37 @@ header{
 }
 
 #connectlinks{
-	float: left;
+	float: right;
 	border: black solid 1px;
 	margin-left: 25px;
 	width: 30%;
 }
 
-#contentmain{
+
+
+.contentmain{
 	clear:both;
 	float:left;
 	max-width: 60%;
 	position: relative;
 	margin-bottom: 10px;
 	border: black solid 1px;
+	/*background-color: #ebebeb;*/
+}
+
+
+.contentsub{
+	margin: 0px 15px 10px 15px;
+}
+
+.contenttitle { 
+	width: 100%;
+	text-align: left;
+	vertical-align: 50%;
+	margin-bottom: 12px;
+	line-height: 75%;
+	border-bottom: 3px solid #999;
+	text-indent: 10px;
 }
 
 
@@ -105,12 +129,19 @@ header{
 
 .iconlnks
 
-#navvbutts{
-	;
+#nameblock{
+	height: 100%
+	width: 75%;
+}
+
+.navbutts{
+	float: right;
 }
 
 .wrapper{
-
+	height: 382px;
+	margin: 20px 0px;
+	border: solid black 1px;
 }
 
 
