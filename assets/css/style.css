@@ -1,0 +1,110 @@
+body{
+	font-family: Arial, Helvetica, Serif, "Times New Roman";
+	line-height: auto;
+}
+
+header{
+	float: left;
+}
+
+footer{
+	clear:both;
+	width: 900px;
+	text-align: center;
+	height: 80px;
+	line-height: 80px;
+	vertical-align: 50%;
+	font-size: small;
+	background-color: #555;
+	padding-top: 5px;
+	margin: 5px auto;
+}
+
+#about, #contact, #portfolio {
+	float: left;
+	background-color: #777;
+	margin: 0px 10px;
+	height: 20px;
+}
+
+#abtmetxt{
+	border: 1px solid black;
+	width: 100%;
+}
+
+#abtmetitle {
+	border: solid 1px blue;
+	background-color: aqua;
+	width: 100%;
+	text-align: left;
+	vertical-align: 50%;
+}
+
+.banner, .wrapper{
+	width: 900px;
+	margin: 0px auto;
+	border: solid black 1px;
+}
+
+#biobox{
+	margin: 0px 15px 10px 15px;
+}
+
+#connectbanner{
+	line-height: 75%;
+	text-indent: 10px;
+	vertical-align: 50%;
+	border-bottom: 3px solid #999;
+}
+
+#connectbanner, .icons{
+	margin: 0px 15px;
+}
+
+#connectlinks{
+	float: left;
+	border: black solid 1px;
+	margin-left: 25px;
+	width: 30%;
+}
+
+#contentmain{
+	clear:both;
+	float:left;
+	max-width: 60%;
+	position: relative;
+	margin-bottom: 10px;
+	border: black solid 1px;
+}
+
+
+#headshot {
+	float: left;
+	height: 300px;
+	width: 200px;
+	margin: 0px 10px 10px 0px;
+	border: 1px solid black;
+}
+
+.icon {
+	height: 45px;
+	width: 45px;
+	margin: 0px 10px;
+}
+
+.iconlnk{
+	float:left;
+}
+
+.iconlnks
+
+#navvbutts{
+	;
+}
+
+.wrapper{
+
+}
+
+
+
