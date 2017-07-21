@@ -46,6 +46,11 @@ h2{
 	padding-left: 10px;
 }
 
+h4{
+	line-height: 20px;
+	margin: 5px auto;
+}
+
 header{
 	float: left;
 	width: 25%;
@@ -130,7 +135,10 @@ td{
 	background-color: #ebebeb;
 }
 
-
+.contactee{
+	width: 40%;
+	/*margin: 1% 25% 1% 1%;*/
+}
 
 .contentmain{
 	clear:both;
@@ -179,6 +187,11 @@ td{
 
 .iconlnks
 
+input.messageinput {
+	width: 65%;
+	height: 150px;
+}
+
 .nameblock{
 	height: 80px
 	width: 75%;
@@ -217,15 +230,24 @@ td{
 	float: left;
 }
 
+.submit{
+	font-size: 24px;
+	background-image: url("./../images/br_brass.jpg");
+	background-size: 100%;
+	border: 1px solid #b89445;
+	text-align: center;
+	text-shadow: 2px 2px #999;
+}
+
 .wrapper{
 	height: 382px;
 	margin: 20px 0px;
 	/*border: solid black 1px;*/
 }
 
- .clearfix:after {
+ /*.clearfix:after {
          content: "";
          display: block;
          clear: both;  }
-
+*/
 

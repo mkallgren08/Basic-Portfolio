@@ -38,15 +38,27 @@
 		<div class = "contentsub">
 			<!-- About Me Title bar -->
 			<div class = "contenttitle">
-			<h2>About Me</h2>
+			<h2>Contact Me</h2>
 			</div>
 
 			<!-- Bio Blurb -->
 			<div id = "abtmetxt">
-				<img id = "headshot" src= "./assets/images/Headshot.jpg" alt = "Headshot: Michael K. Kallgren">
-				<p> I have trouble talking about myself. Need to be in the right mindset.</p>
-				<p>Basic content: I'm a builder and a maker. I've done everything from opera to advanced material design, synthesis, and testing; from teaching to carpentry; from bicycle repair to hardware prototyping </p>
-				<p> I'll come back to this part, I promise :)</p>
+				<form action="#">
+  					<h4>Your Name:</h4><br>
+  						<input class = "contactee" type="text" name="name"><br>
+  					<h4>Your E-Mail:</h4><br>
+  						<input class = "contactee" type="text" name="email"><br>
+   					<h4>Callback Number:</h4><br>
+  						<input class = "contactee" type="text" name="phone"><br>
+					<h4>Your Message:</h4><br>
+						<input style = "width:65%; height:150px" type = "text" name="message"><br>
+					<h4>Preferred Method of Contact?</h4><br>
+						<input type="radio" name="contacttype" value="email" checked> E-mail<br>
+  						<input type="radio" name="contacttype" value="phone"> Phone<br>
+  						<input type="radio" name="contacttype" value="either"> Either<br>
+  					<br>
+  					<input class = "submit" type="submit" value="Submit">
+				</form>
 			</div>
 		</div>
 		</section>
